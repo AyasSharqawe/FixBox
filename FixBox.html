@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center ;
+}
+.flex-item-top {
+    background-color: red;
+  padding: 50px;
+  flex: 100%;
+}
+.flex-item-left {
+    border: black 2px solid;
+    background-color: lightskyblue;
+  padding: 50px;
+  flex: 85%;
+}
+.flex-item-right {
+    border: black 2px solid;
+  background-color: lightgreen;
+  padding: 50px;
+  flex: 50%;
+}
+.flex-item-left2{
+    border: black 2px solid;
+  background-color: yellow;
+  padding: 50px;
+  flex: 50%;
+}
+.flex-item-right2{
+    border: black 2px solid;
+  background-color: purple;
+  padding: 50px;
+  flex: 50%;
+}
+</style>
+</head>
+<body style=" border:1px red dashed; padding-bottom:400px"> 
+    <div class ="flex-container">
+        <div class="flex-item-top">One</div>
+    </div>
+<div class="flex-container">
+  <div class="flex-item-left">Two</div>
+  <div class="flex-item-right">Three</div>
+</div>
+<div class="flex-container">
+    <div class="flex-item-left2">Four</div>
+    <div class="flex-item-right2">Five</div>
+  </div>
+  
+</body>
+</html>
+
+
